@@ -1,0 +1,46 @@
+what to work on next
+
+
+- calculating the length of lines
+    used in making noise based on length
+
+- mabye a giant button somewhere that lets you reset everything without having to close the window
+- expand lines if left click, like the power lines in satisfactory adding power poles and the cables between them
+    drawing from a node and creating a new node
+- maybe move the lines by clicking on nodes and clicking somewhere else
+- ball explosion of like 20 bawls if i hit number 6 or something like the bounce house demo from 11.2 in class
+- maybe special colored lines that would multiply whatever balls hit it by 2 or 3
+    would need to copy the ball that hit and change its x and y velocity slightly for this
+-   have a color wheel in another corner for user to keep track of which color line they have selected
+
+have user input for raising or lowering size of all balls on screen
+have user input for changing colors of balls, like hitting a button would randomly color shift all balls
+    option to return all to white
+    or option to have a constant transition between colors like rainbow color cycling idk what it is called
+have user input to change gravity maybe? idk cuz that pretty much just makes thing slow
+    between .01 and .1 (default)
+'random' spawners that have balls of random size and random gravity
+option select menu on the side for people who dont want to hit buttons for each of these
+    balls, nodes, spawners, ball explosion, color change, etc are a lot of options
+    having a dropdown menu for selecting them would be cool
+
+
+
+
+COMPLETED TASKS
+- adding keyboard functionality
+-optimizing the clicking logic
+-removing balls if they go off the screen
+- stop balls from clipping into lines (maybe) (idk i kind of like it)
+-getting ball spawners to work
+- having text appear all floaty above spawners when you increase or decrease their speed
+
+things chatgpt helped me with
+    gave formula for calculating reflection angle (i guess i couldve googled this too)
+    explained how to make masks, specifically the transparency part
+    explained how to change transparency of text
+        do this with text.set_alpha(example number)
+
+
+
+

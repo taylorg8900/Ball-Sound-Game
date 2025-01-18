@@ -1,0 +1,34 @@
+game elements
+    ball
+        placed when user left clicks
+        maybe holding left click makes a bigger ball?
+        continuously drops from point every second if user middle clicks
+        has gravity
+        makes noise when it hits lines
+        pitch of noise depends on length of line
+        bounces off lines, has acceleration
+    ball spawner
+        placed when user middle clicks
+        if user left clicks on it, raise speed of spawning balls
+        if user right clicks on it, lower speed of spawning balls
+        if speed of spawning balls gets to 0, delete object
+    lines that are created between two nodes
+        stores info about how long they are
+        stores info about angle of line, to calculate bounce path of ball
+    nodes that are placed when user right clicks
+        lines are created when two subsequent nodes are placed
+
+floating text idea
+    - moves up with each tick
+    - gets more faded out with each tick
+    - position depends on spawners
+    - activates when speeding up or slowing down spawners
+    - will have to updated each loop, probably next to the updating for balls and lines and nodes and spawners
+
+
+design
+ROBS IDEA
+can make the game about getting the ball into a hole, using the lines to bounce it in
+make it like flappy golf, where hitting a or d modifies the balls path
+dylans idea
+    add death laser obstacles
