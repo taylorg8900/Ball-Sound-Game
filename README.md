@@ -3,7 +3,7 @@ This game was made in pygame. It consists of a bunch of little balls that fly ar
 
 During my first Computer Science semester at USU, I learned how to use python. When I found out about what classes were and how they were different from structs in C, I decided to try and implement that knowledge and expand upon it by making this simple but satisfying game.
 
-### Intended play
+# Intended play
 It is quite fun to place a spawner on one part of the screen, and watching the trajectory of balls, to continue placing new lines for them to bounce off of. You can essentially place as many lines in any configuration you want, which lets you make all sorts of wacky, intricate, crazy bouncing paths for the balls (before they eventually fly off the screen). Try to get as many balls to stay on the screen at once as you can! 
 
 The game will start lagging once you get above several hundred balls. This might be due to me including for loops in multiple different places in the code, for things such as physics, and displaying to the screen. This was just to organize the code to make it more readable, and this project was small enough that I don't think it matters too much.
