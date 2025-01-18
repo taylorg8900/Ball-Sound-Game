@@ -17,3 +17,6 @@ The user uses the mouse and keyboard to place balls, spawners that repeatedly sp
 > - 5 = slow down spawner, if mouse is hovering over it
 > - 6 = toggle noise on / off
 
+# ZIP file
+You can just extract Ball-Sound-Game.zip and run that, no python IDE required :)  
+However, if you want to peek around at code you can totally do that with the other files using your favorite text editor or python IDE
